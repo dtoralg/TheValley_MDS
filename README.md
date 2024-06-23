@@ -19,27 +19,20 @@ Este repositorio incluye:
 machine-learning-no-supervisado/
 │
 ├── data/
-│   ├── dataset1.csv
-│   ├── dataset2.csv
+│   ├── credit_card_data.csv
+│   ├── weatherHistory.csv
 │   └── ...
 │
 ├── notebooks/
-│   ├── 01-introduccion.ipynb
-│   ├── 02-clustering.ipynb
-│   ├── 03-pca.ipynb
-│   ├── 04-deteccion-anomalias.ipynb
+│   ├── E1_Bank_Customer_Segmentation.ipynb
+│   ├── E2_Clustering_Jeraquico_con_IRIS.ipynb
+│   ├── E3_Principal_Component_Analysis.ipynb
 │   └── ...
 │
 ├── scripts/
-│   ├── preprocessing.py
-│   ├── clustering.py
-│   ├── pca.py
-│   ├── anomaly_detection.py
 │   └── ...
 │
 ├── docs/
-│   ├── syllabus.pdf
-│   ├── referencias.md
 │   └── ...
 │
 ├── .gitignore
