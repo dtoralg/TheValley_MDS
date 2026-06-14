@@ -1,6 +1,6 @@
 # [07] - Ingeniería de Variables I
 
-Notebooks prácticos de la sesión **Ingeniería de Variables I** del Máster FP en Data Science
+Notebooks prácticos de la sesión **Ingeniería de Variables I** del Máster en Data Science
 (The Valley). El hilo conductor es un dataset **sintético y reproducible de fraude con tarjeta**
 que se genera dentro de cada notebook (no necesitas descargar nada: son autocontenidos para Colab).
 
