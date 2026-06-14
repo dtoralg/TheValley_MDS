@@ -1,6 +1,6 @@
 # [08] - Ingeniería de Variables II
 
-Notebooks prácticos de la sesión **Ingeniería de Variables II** del Máster FP en Data Science
+Notebooks prácticos de la sesión **Ingeniería de Variables II** del Máster en Data Science
 (The Valley). El tema central es la **reducción de dimensionalidad**: cuando tienes muchísimas
 columnas, ¿cómo te quedas con la información que de verdad importa? La herramienta principal es
 **PCA** (y **TruncatedSVD** para texto/datos dispersos).
@@ -19,8 +19,6 @@ todo funciona en Colab sin descargar nada.
 | [`E3_Visualiza_en_2D_con_PCA.ipynb`](%5B01%5D%20-%20Notebooks/E3_Visualiza_en_2D_con_PCA.ipynb) | **E3 · Visualiza en 2D con PCA** | Proyectar a 2 componentes, scatter, ver grupos, conexión con clustering |
 | [`E4_Caza_la_Fuga_de_PCA.ipynb`](%5B01%5D%20-%20Notebooks/E4_Caza_la_Fuga_de_PCA.ipynb) | **E4 · Caza la fuga de PCA** *(bonus)* | Fuga del PCA (no supervisado, pequeña) vs fuga de una selección por el target (enorme); regla de oro del Pipeline |
 | [`E5_Texto_Sparse_con_TruncatedSVD.ipynb`](%5B01%5D%20-%20Notebooks/E5_Texto_Sparse_con_TruncatedSVD.ipynb) | **E5 · Texto sparse con TruncatedSVD** *(bonus)* | TF-IDF (miles de columnas dispersas), TruncatedSVD a 50 componentes, comparar columnas, tiempo y AUC |
-
-Cada notebook incluye un botón **"Open In Colab"** al principio para abrirlo directamente.
 
 ## Estructura
 
@@ -43,7 +41,7 @@ Cada notebook incluye un botón **"Open In Colab"** al principio para abrirlo di
 - **E5** usa `generar_resenas`: reseñas sintéticas en español (positivas/negativas) para
   vectorizar con TF-IDF y reducir con TruncatedSVD.
 
-## Ideas para llevarse
+## Takeaways
 
 1. Más columnas no es más información (maldición de la dimensionalidad: sparsity, ruido, coste).
 2. Reducir = **seleccionar** (un subconjunto) o **extraer** (combinar, como PCA).
