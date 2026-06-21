@@ -15,7 +15,7 @@ notebook, así que todo funciona en Colab sin descargar nada.
 |---|---|---|
 | [`E1_Distancias_y_Efectos_de_Escala.ipynb`](%5B01%5D%20-%20Notebooks/E1_Distancias_y_Efectos_de_Escala.ipynb) | **E1 · Distancias y efectos de escala** | Distancias Euclídea, Manhattan y Minkowski; Jaccard y coeficiente simple; por qué escalar es obligatorio |
 | [`E2_KMeans_Completo.ipynb`](%5B01%5D%20-%20Notebooks/E2_KMeans_Completo.ipynb) | **E2 · K-Means completo** | K-Means con k-means++, centroides, método del codo (inercia), Silhouette Score, elegir K y describir clusters |
-| [`E3_Perfila_e_Interpreta_tus_Grupos.ipynb`](%5B01%5D%20-%20Notebooks/E3_Perfila_e_Interpreta_tus_Grupos.ipynb) | **E3 · Perfila e interpreta tus grupos** | Profiling: perfil medio, comparación frente al resto, medoide (cliente real), nombre accionable y campaña |
+| [`E3_KMedoids_E2E.ipynb`](%5B01%5D%20-%20Notebooks/E3_KMedoids_E2E.ipynb) | **E3 · K-Medoids E2E** | K-Medoids implementado desde cero con el mismo K que K-Means; centroide (promedio) vs medoide (cliente real), cliente representante de cada grupo y robustez a outliers |
 | [`E4_Defiende_tu_K.ipynb`](%5B01%5D%20-%20Notebooks/E4_Defiende_tu_K.ipynb) | **E4 · Defiende tu K** *(bonus)* | Elegir K con 3 evidencias (codo/silhouette, interpretabilidad y acción de negocio) y redactar una recomendación |
 
 Cada notebook incluye un botón **"Open In Colab"** al principio para abrirlo directamente.
@@ -28,7 +28,7 @@ Cada notebook incluye un botón **"Open In Colab"** al principio para abrirlo di
 └── [01] - Notebooks/
     ├── E1_Distancias_y_Efectos_de_Escala.ipynb
     ├── E2_KMeans_Completo.ipynb
-    ├── E3_Perfila_e_Interpreta_tus_Grupos.ipynb
+    ├── E3_KMedoids_E2E.ipynb
     └── E4_Defiende_tu_K.ipynb
 ```
 
