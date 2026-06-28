@@ -6,8 +6,7 @@ y cerramos con el **profiling** (convertir grupos en perfiles de negocio acciona
 
 > No hay un único clustering: cada método asume una forma distinta de grupo.
 
-Siempre que es posible usamos **datasets reales** (Mall Customers, Iris, Wine), más educativos
-que los sintéticos. Solo en DBSCAN generamos datos a propósito (las "lunas"), porque es la forma
+Siempre que es posible usamos **datasets reales** (Mall Customers, Iris, Wine). Solo en DBSCAN generamos datos a propósito (las "lunas"), porque es la forma
 ideal para ver su ventaja.
 
 ## Notebooks de esta sesión
